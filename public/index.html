@@ -34,8 +34,8 @@
         <h1>RDP DeepSeek-R1 Chat</h1>
         <div id="chat-box"></div>
         <textarea id="input-box" rows="3" placeholder="Ask Something..."></textarea>
-        <button onclick="">Send</button>
-        <button onclick="">Reset</button>
+        <button onclick="sendMessage()">Send</button>
+        <button onclick="stopGeneration()" id="stop-btn" disabled>Reset</button>
         <script src="message.js"></script>
     </body>
 </html>
